@@ -35,6 +35,3 @@ mosaic_plot_team_opponent = sns.catplot(data=icc_data, kind='count', x='team', h
 mosaic_plot_team_opponent.set(title='Mosaic Plot: Team vs. Opponent', xlabel='Team', ylabel='Count')
 plt.xticks(rotation=45, ha='right')
 plt.show()
-
-# Reference:
-# <https://www.kaggle.com/>
